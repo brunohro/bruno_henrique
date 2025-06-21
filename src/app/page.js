@@ -2,27 +2,27 @@ import Saudacoes from "@/components/Saudacoes";
 import Image from "next/image";
 export default function Home() {
   return (
-    <div className="mx-auto max-h-screen p-6 space-y-8 text-white font-sans">
-      <div className="flex justify-between max-w-2xl mx-auto">
+    <div className="min-h-screen w-full flex items-center justify-center text-white font-sans p-6">
+      <div className="flex flex-col gap-4 justify-between mx-auto">
         <div>
-          <Saudacoes />
-          <p>Front-end developer</p>
-          <div className="flex gap-2">
+          <div className="flex gap-6 justify-center m-4">
             <Image src="/github.png" alt="github" width={32} height={32} />
             <Image src="/linkedin.png" alt="github" width={32} height={32} />
             <Image src="/behance.svg" alt="github" width={32} height={32} />
           </div>
+          <div className="flex justify-center m-4">
+            <Image
+              className="rounded-full"
+              src="/brunoOl.png"
+              alt="Bruno Henrique"
+              width={200}
+              height={200}
+            />
+          </div>
+          <Saudacoes />
+          <p>Front-end developer</p>
         </div>
         {/* DIVISAO 1  */}
-        <div>
-          <Image
-            className="rounded-full"
-            src="/brunoOl.png"
-            alt="Bruno Henrique"
-            width={200}
-            height={200}
-          />
-        </div>
         {/* DIVISAO 2  */}
         <div>
           <div className="flex items-center p-2 gap-2 justify-end text-purple-500/40">
