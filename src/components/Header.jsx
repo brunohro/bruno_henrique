@@ -21,8 +21,8 @@ const Header = () => {
           </button>
         </div>
         {isOpen && (
-          <div className="pb-4">
-            <nav className="flex gap-6 text-sm justify-center">
+          <div className="pb-4 mx-6">
+            <nav className="flex gap-4 text-sm justify-center">
               <Link className="hover:text-white" href="/projetos">
                 Projetos
               </Link>
