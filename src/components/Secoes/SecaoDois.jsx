@@ -3,7 +3,7 @@ import { CodeXml } from "lucide-react";
 
 const SecaoDois = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-20 mb-8">
       <div className="mx-auto flex flex-col justify-center items-center gap-10">
         {/* Divisão Um */}
         <div className="max-w-sm w-full min-h-[350px] flex flex-col border-2 rounded-4xl border-purple-500/40 hover:border-purple-500 cursor-pointer items-center px-8 py-10 text-center transition-all duration-300 ease-in-out">
@@ -26,7 +26,7 @@ const SecaoDois = () => {
         </div>
 
         {/* Divisão Três */}
-        <div className="max-w-sm w-full min-h-[350px] flex flex-col border-2 rounded-4xl border-purple-500/40 hover:border-purple-500 cursor-pointer items-center px-8 py-10 text-center transition-all duration-300 ease-in-out text-white">
+        <div className="bg-purple-900/15 max-w-sm w-full min-h-[350px] flex flex-col border-2 rounded-4xl border-purple-500/40 hover:border-purple-500 cursor-pointer items-center px-8 py-10 text-center transition-all duration-300 ease-in-out text-white">
           <div className="mb-6">
             <CodeXml width={64} height={64} />
           </div>
