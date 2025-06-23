@@ -1,4 +1,5 @@
 import SecaoDois from "@/components/Secoes/SecaoDois";
+import SecaoTres from "@/components/Secoes/SecaoTres";
 import SecaoUm from "@/components/Secoes/SecaoUm";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <SecaoUm />
       <SecaoDois />
+      <SecaoTres />
     </div>
   );
 }

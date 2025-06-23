@@ -15,10 +15,10 @@ const SecaoInicial = () => {
           <div className="flex justify-center m-4">
             <Image
               className="rounded-full"
-              src="/brunoOl.png"
+              src="/BH1.png"
               alt="Bruno Henrique"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
             />
           </div>
           <Saudacoes />
