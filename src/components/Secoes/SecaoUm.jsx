@@ -1,5 +1,6 @@
 import Saudacoes from "@/components/Saudacoes";
 import Image from "next/image";
+import ButtonConversar from "../ButtonConversar";
 
 const SecaoInicial = () => {
   return (
@@ -37,15 +38,7 @@ const SecaoInicial = () => {
               />
             </div>
           </div>
-          <div className="flex items-center border-2 p-2 rounded-2xl hover:cursor-pointer border-purple-500/40 gap-2 text-purple-500/40">
-            <Image
-              src="/WhatsappLogo.png"
-              alt="Whatsapp"
-              width={32}
-              height={32}
-            />
-            <h1>Vamos conversar</h1>
-          </div>
+          <ButtonConversar />
         </div>
       </div>
     </div>
