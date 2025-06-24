@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Saudacoes from "../Saudacoes";
 
 const SecaoTres = () => {
   return (
@@ -16,29 +17,26 @@ const SecaoTres = () => {
       </div>
       {/* Segunda divisão */}
       <div className="max-w-md mx-auto mt-5 mb-10">
-        <div className="flex max-w-sm">
-          <div className="bg-purple-500/10 rounded-2xl flex gap-2 py-2 px-4 ">
-            <h1>🤔</h1>
-            <h1 className="text-purple-400 font-medium">Sobre mim!</h1>
-          </div>
-        </div>
-        <div className="font-bold text-5xl py-2">
-          <h1> Bruno</h1>
-          <h1>Henrique</h1>
-        </div>
+        <Saudacoes
+          emoji="🤔"
+          titulo="Sobre mim!"
+          primeroNome="Bruno"
+          segundoNome="Henrique"
+        />
         {/* Terceira divisão */}
         <div className="font-extralight text-md flex flex-col gap-4 text-zinc-400 text-justify leading-7 mt-5">
           <p>
             Desenvolvedor apaixonado por tecnologia, com mais de 2 anos de
-            experiência na criação de interfaces e aplicações web. Trabalho com
+            experiência na área de desenvolvimento de software. Trabalho com
             React, Next.js (inclusive neste portfólio), Django, Python, C#, PHP
             e outras tecnologias que me desafiem a evoluir como desenvolvedor.
           </p>
           <p>
             Formado como Técnico em Informática pelo IFRN e atualmente cursando
             Análise e Desenvolvimento de Sistemas. Tenho grande interesse em
-            desenvolvimento Front-end com React e Next.js, além de estudar
-            constantemente UX/UI Design para entregar experiências de qualidade.
+            desenvolvimento Front-end com React e Next.js, além de trabalhar com
+            frameworks como Django que permite o desenvolvimento completo de uma
+            aplicação ( backend e frontend ).
           </p>
           <p>
             🚀 Todos os dias buscando ser melhor do que ontem — com código
